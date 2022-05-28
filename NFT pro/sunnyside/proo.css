@@ -1,0 +1,110 @@
+*{
+    background-color: antiquewhite;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px dotted red;
+    background-color: rgb(218, 206, 206);
+
+}
+nav h2 {
+    background-color: rgb(218, 206, 206);
+}
+nav ul {
+
+   margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(218, 206, 206);
+}
+nav li {
+    margin-left: 3rem;
+    background-color: rgb(218, 206, 206);
+
+}
+nav a {
+    text-decoration: none;
+    color: rgb(141, 22, 13);
+    background-color: rgb(218, 206, 206);
+
+}
+nav a:hover {
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    border-width: 0.5rem;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 1rem;
+    border-right-width: 1rem;
+    background-color: white;
+    color: aqua;
+    
+}
+.section-one {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.first-aside {
+    width: 40%;
+}
+
+.second-aside {
+    width: 60%;
+
+}
+.second-aside img {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin-top: 5rem;
+}
+.second-aside h2 {
+    position: absolute;
+    top:   15rem;
+    left: 70%;
+}
+
+.second-aside a {
+    color: blueviolet;
+    text-decoration: none;
+}
+.second-aside a:hover {
+    text-decoration: underline;
+   
+}
+
+.first-fieldset {
+    color: palevioletred;
+    width: 40%;
+    border:green dotted;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    nav {
+        display:inherit;
+
+       width: 100%;
+    }
+    nav h2 {
+        text-align: center;
+    }
+ 
+    nav ul
+    {
+     
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+
+    }
+   
+}
