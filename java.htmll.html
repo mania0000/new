@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 days javascript</title>
+    <style>
+      * {
+        margin: 0;
+        width: 100%;
+        background-color: rgb(243, 237, 230);
+        color: white;
+      }
+      h1 {
+        text-align: center;
+        background-color: rgb(89, 89, 114);
+
+      }
+      fieldset {
+        margin: 0 auto;
+        border: none;
+        background-color: rgb(89, 89, 114);
+       
+
+      }
+      p {
+        background-color: rgb(89, 89, 114);
+      }
+      label {
+        display: block;
+       margin: .5rem 0rem;
+       background-color: rgb(89, 89, 114);
+      
+      }
+      .fieldset2 input, .fieldset3 input {
+        width: 100%;
+        width: unset;
+       vertical-align:middle;
+
+      }
+      input::placeholder{
+        color: rgb(197, 204, 199);
+      }
+
+      option {
+        background-color: rgb(89, 89, 114);
+      }
+
+      form {
+        margin: 0 auto;
+        background-color: rgb(89, 89, 114);
+        width: 60vh;
+        max-width: 500px;
+      }
+
+      .fieldset1 input,.fieldset4 select {
+        min-height: 4vh;
+        background-color: rgb(89, 89, 114);
+        border: 2px solid rgb(173, 168, 162);
+        
+      }
+input[type="file"] {
+  background-color: rgb(89, 89, 114);
+  border: 1px solid rgb(173, 168, 162);
+
+
+}
+
+  
+      input[type="submit"] {
+        display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+      
+      }
+   
+    </style>
+  </head>
+  <body>
+    <h5 class="very" id="exit">I am very excited</h5>
+    
+    <form action="#">
+      <fieldset>
+      <h1 class="grant" id="app">grant application form</h1></fieldset>
+      <fieldset class="fieldset1">
+        <label>First Name: <input type="text" name="first name" id="name" required placeholder="Enter your first name"></label>
+        <label>Middle Name(optional): <input type="text" name="Middle name" id="name" placeholder="Enter your first name"></label>
+        <label>Last Name: <input type="text" name="first name" id="name" placeholder="Enter your last name" required></label>
+        <label>Email: <input type="email" name="Email" id="email"  placeholder="Enter your emeail" required></label>
+        <label>Age: <input type="date" name="age" id="age" min="13" max="80" Age> </label>
+        <label>Create password: <input type="password" name="password" id="password" pattern="[a-z,0-9]"  required placeholder="password must contain letters, numbers and a character"></label>
+        <label>Enter password again: <input type="password" name="password" id="password" pattern="[a-z,0-9]" placeholder="Enter password again"></label>
+         
+        
+      </fieldset>
+      <fieldset class="fieldset2">
+        <p>How much do you find this course helpful</p>
+        <label><input type="radio" name="review" id="button" value="helpful" checked> very helpful</label>
+        <label><input type="radio" name="review" id="button" value="difficult"> difficult</label>
+        <label><input type="radio" name="review" id="button" value="not interested"> not interested</label>
+        <label><input type="radio" name="review" id="button" value="trash"> trash</label>
+      </fieldset>
+      <fieldset class="fieldset3">
+        <p>What will you like us to improve</p>
+        <label><input type="checkbox" name="Font d" id="display"> Font display </label>
+        <label> <input type="checkbox" name="Font d" id="display"> Font font</label>
+        <label> <input type="checkbox" name="Font d" id="display"> Text size</label>
+        <label> <input type="checkbox" name="Font d" id="display"> Complexity</label>
+        <label> <input type="checkbox" name="Font d" id="display"> Learning days</label>
+        <label> <input type="checkbox" name="Font d" id="display" checked> None</label>
+      </fieldset>
+      <fieldset class="fieldset4">
+        <label>How did you hear about us
+        <select name="select" id="select">
+          <option value="option">---select option---</option>
+          <option value="friend">From a friend</option>
+          <option value="media">Social media</option>
+          <option value="google">Google</option>
+          <option value="advert">Advert</option>
+        </select>
+      </label>
+      <label>Upload photo<input type="file" name="file" id="file"></label>
+    </fieldset>--->
+      <fieldset>
+       <input class="button_one" type="submit" name="submit" id="submit" value="submit" >
+       <button onclick="butt()" class="buttone_two">submit</button>
+      </fieldset>
+     
+      
+      
+
+    </form>
+    <!--<script src="helloworld.js"></script>
+    <script src="java.js"></script> --->
+
+    <!---
+    <button onclick="alert('Welcome to 30days of javascript')">click</button>
+    <script>
+      console.log("Hello World");
+    </script>
+    <button
+      onclick="alert('are you sure you want delete. This action can not be reversed')"
+    >
+      delete
+    </button>
+    
+
+ <button onclick="prompt('enter Number')" type="menu">prompt</button>
+ <button onclick="confirm('Are you sure you want to delete\nData will not be restored')">delete</button> -->
+
+    </script>
+    
+  </body>
+</html>
